@@ -1,0 +1,137 @@
+/*COURSES SECTION*/
+#about{
+    background-image: linear-gradient(#1E2453, #14141B);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 0.5% 14%;
+    color: #4255A4;
+    margin: auto;
+  }
+  .price-heading{
+    text-align: center;
+    margin: 1% 5% 3%;
+  }
+  .course-one{
+    background-image: url(images/intro-comp-think.jpg);
+    padding: 30%;
+  }
+  .course-two{
+    background-image: url(images/system-ad.jpg);
+    padding: 30%;
+  }
+  .course-three{
+    background-image: url(images/comp-net.jpg);
+    padding: 30%;
+  }
+  .course-four{
+    background-image: url(images/big-data.jpg);
+    padding: 30%;
+  }
+  .course-five{
+    background-image: url(images/mixed-signals.jpg);
+    padding: 30%;
+  }
+  .course-six{
+    background-image: url(images/drafting.jpg);
+    padding: 30%;
+  }
+  .star-style{
+    color: #FFC000;
+  }
+  .card-body-style, .card-star-style{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: grey;
+  }
+  .carousel-button-left{
+    position: absolute;
+    padding-right: 120px;
+  }
+  .carousel-button-right{
+    position: absolute;
+    padding-left: 120px;
+  }
+  
+  /*SUBJECTS SECTION*/
+  #subjects{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding: 5% 14%;
+    margin: auto;
+  }
+  a{
+    color: white;
+  }
+  .subjects-heading{
+    color: #4255A4;
+    margin: 5% 0;
+  }
+  .row-one{
+    margin-bottom: 15px;
+  }
+  .row-two{
+    margin-bottom: 100px;
+  }
+  .card-style-subject{
+    background-image: url(images/subjects.jpg);
+  }
+  a:hover{
+    color: white;
+  }
+  
+  /*TESTIMONIALS-SECTION*/
+  #testimonials{
+    padding: 6% 14%;
+    text-align: center;
+  }
+  .testimonials-header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #4255A4;
+    margin-bottom: 50px;
+  }
+  .testimonial-image{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .testimonial-text{
+    color: #6373B4;
+  }
+  
+  /*FOOTER SECTION*/
+  #footer{
+    background-color: #282F72;
+    text-align: center;
+    padding: 3% 14%;
+    color: white;
+  }
+  .footer-left{
+    text-align: left;
+  }
+  .footer-header{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .footer-body{
+    padding-right: 20%;
+  }
+  .foot-icon-left{
+    padding: 10px;
+  }
+  .foot-text{
+    text-align: left;
+    margin-top: 20px;
+  }
+  .footer-right{
+    text-align: left;
+  }
+  .footer-right-header{
+    font-weight: 700;
+  }
+  .footer-right-body{
+    margin-bottom: 20px;
+  }

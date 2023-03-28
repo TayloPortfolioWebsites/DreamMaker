@@ -2,20 +2,21 @@ body{
     font-family: 'Mulish', sans-serif;
     overflow-x: hidden;
   }
+
   /*TITLE SECTION*/
   #title{
-    background-image: linear-gradient(#0A2647,#144272);
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)),url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/travel-bg.jpg?raw=true);
     height: 100vh;
   }
   .navbar-style{
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
-    background-color: #0A2647;
+    background-color: #282F72;
     padding-top: 1rem;
     padding-right: 4rem;
   }
   .fa-icon{
-    padding-right: 5px;
+    margin-right: 10px;
   }
   .brand-title{
     font-family: 'Josefin Sans', sans-serif;
@@ -35,199 +36,34 @@ body{
     margin: 1rem;
     padding: 0.5rem 2rem;
     color: white;
+    text-decoration: none;
   }
   .title-description{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     color: white;
-    padding: 30% 0 0 25%;
+    margin: 25% 0 0 35%;
   }
   .title-subdescription{
     font-family: 'Mulish', sans-serif;
     font-size: 1.1rem;
     color: white;
-    padding-top: 2%;
-    padding-left: 25%;
+    margin-top: 2%;
+    margin-left: 35%;
   }
   .title-button{
     font-weight: 700;
     padding: 0.5rem 2rem;
     color: white;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-bottom: 18%;
   }
-  .title-image{
-    margin-right: 10%;
-    width: 150%;
-    padding: 50% 0 15% 15%;
-  }
-  
-  /*FEATURES SECTION*/
-  #features{
-    padding: 0px 100px;
-  }
-  .card-one{
-    border-radius: 15px;
-    margin: auto;
-    bottom: 80px;
-  }
-  .features-row{
-    margin: auto;
-    text-align: left;
-  }
-  .card-image{
-    float: left;
-    width: 30%;
-  }
-  .features-header{
-    padding-top: 1.5rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: #4255A4;
-  }
-  .features-body{
-    margin-right: 10px;
-    font-weight: 400;
-    font-size: 1.20rem;
-    color: #6070B2;
-  }
-  
-  /*COURSES SECTION*/
-  #courses{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    padding: 0.5% 14%;
-    color: #4255A4;
-    margin: auto;
-  }
-  .price-heading{
-    text-align: center;
-    margin: 1% 5% 3%;
-  }
-  .course-one{
-    background-image: url(images/intro-comp-think.jpg);
-    padding: 30%;
-  }
-  .course-two{
-    background-image: url(images/system-ad.jpg);
-    padding: 30%;
-  }
-  .course-three{
-    background-image: url(images/comp-net.jpg);
-    padding: 30%;
-  }
-  .course-four{
-    background-image: url(images/big-data.jpg);
-    padding: 30%;
-  }
-  .course-five{
-    background-image: url(images/mixed-signals.jpg);
-    padding: 30%;
-  }
-  .course-six{
-    background-image: url(images/drafting.jpg);
-    padding: 30%;
-  }
-  .star-style{
-    color: #FFC000;
-  }
-  .card-body-style, .card-star-style{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
-    color: grey;
-  }
-  .carousel-button-left{
-    position: absolute;
-    padding-right: 120px;
-  }
-  .carousel-button-right{
-    position: absolute;
-    padding-left: 120px;
-  }
-  
-  /*SUBJECTS SECTION*/
-  #subjects{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-    padding: 5% 14%;
-    margin: auto;
-  }
-  a{
-    color: white;
-  }
-  .subjects-heading{
-    color: #4255A4;
-    margin: 5% 0;
-  }
-  .row-one{
-    margin-bottom: 15px;
-  }
-  .row-two{
-    margin-bottom: 100px;
-  }
-  .card-style-subject{
-    background-image: url(images/subjects.jpg);
-  }
-  a:hover{
-    color: white;
-  }
-  
-  /*ABOUT SECTION*/
-  #about{
-    margin-top: 100px;
-  }
-  .about-header{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    margin-bottom: 30px;
-    color: #4255A4;
-  }
-  .about-subheader{
-    padding-bottom: 30px;
-  }
-  .fa-icon-about{
-    color: #FFC000;
-    padding-right: 8px;
-  }
-  .about-body{
-    color: #4255A4;
-  }
-  .about-image{
-    margin-left: 40px;
-    margin-bottom: 120px;
-    width: 550px;
-  }
-  
-  /*TESTIMONIALS-SECTION*/
-  #testimonials{
-    padding: 6% 14%;
-    text-align: center;
-  }
-  .testimonials-header{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    color: #4255A4;
-    margin-bottom: 50px;
-  }
-  .testimonial-image{
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-top: 2%;
-    margin-bottom: 3%;
-  }
-  .testimonial-text{
-    color: #6373B4;
-  }
-  
-  /*FOOTER SECTION*/
-  #footer{
-    background-color: #4255A4;
+
+   /*FOOTER SECTION*/
+   #footer{
+    background-color: #282F72;
     text-align: center;
     padding: 3% 14%;
     color: white;
@@ -253,12 +89,37 @@ body{
   }
   .footer-right-header{
     font-weight: 700;
+    font-size: 20px;
   }
   .footer-right-body{
     margin-bottom: 20px;
   }
+  input {
+    background-color: #484aaa;
+    border: 1px solid #484aaa;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 300px;
+  }
   
-  /*VIEWPORTS*/
+  ::placeholder {
+    color: white;
+  }
+  
+  .textarea-box {
+    height: 100px;
+  }
+  
+  .submit-button {
+    background-color: #33bf30;
+    text-align: center;
+    width: 150px;
+    padding-left: 0;
+  }
+  
+  /* VIEWPORTS
   @media (max-width: 1024px) {
     .title-description{
       font-size: 50px;
@@ -361,5 +222,5 @@ body{
     .footer-button{
       width: 150px;
     }
-  }
+  } */
   
