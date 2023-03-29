@@ -62,15 +62,15 @@ body{
 }
 
 .services-one{
-  background-image: url(images/intro-comp-think.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/intl-header.jpg?raw=true);
   padding: 30%;
 }
 .course-two{
-  background-image: url(images/system-ad.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/visa-header.jpg?raw=true);
   padding: 30%;
 }
 .course-three{
-  background-image: url(images/comp-net.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/airline-header.jpg?raw=true);
   padding: 30%;
 }
 .course-four{
