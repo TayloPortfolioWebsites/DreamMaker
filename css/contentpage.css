@@ -1,56 +1,142 @@
-/*COURSES SECTION*/
+body{
+  overflow-x: hidden;
+}
+
+/* NAVIGATION BAR */
+.navbar-style{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  background-color: #282F72;
+  padding-top: 1rem;
+  padding-right: 4rem;
+}
+
+.fa-icon{
+  margin-right: 10px;
+}
+
+.brand-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding-left: 5%;
+}
+
+.brand-icon{
+  padding: 5%;
+}
+
+.links{
+  color: white;
+  margin: 1rem;
+}
+
+.links-button{
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/*SERVICES SECTION*/
+#services{
+  background-image: linear-gradient(#3b45a2,#282F72);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding: 0.5% 14%;
+  color: #4255A4;
+  margin: auto;
+}
+
+.services-heading{
+  text-align: center;
+  margin: 15% 5% 3%;
+  color: white;
+}
+
+.first-carousel-title{
+  text-align: center;
+  margin: 0 5% 3%;
+  color: white;
+}
+
+.services-one{
+  background-image: url(images/intro-comp-think.jpg);
+  padding: 30%;
+}
+.course-two{
+  background-image: url(images/system-ad.jpg);
+  padding: 30%;
+}
+.course-three{
+  background-image: url(images/comp-net.jpg);
+  padding: 30%;
+}
+.course-four{
+  background-image: url(images/big-data.jpg);
+  padding: 30%;
+}
+.course-five{
+  background-image: url(images/mixed-signals.jpg);
+  padding: 30%;
+}
+.course-six{
+  background-image: url(images/drafting.jpg);
+  padding: 30%;
+}
+.star-style{
+  color: #FFC000;
+}
+.card-body-style, .card-star-style{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  color: grey;
+}
+.carousel-button-left{
+  position: absolute;
+  padding-right: 120px;
+}
+.carousel-button-right{
+  position: absolute;
+  padding-left: 120px;
+}
+
+/*ABOUT SECTION*/
 #about{
-    background-image: linear-gradient(#1E2453, #14141B);
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    padding: 0.5% 14%;
-    color: #4255A4;
-    margin: auto;
-  }
-  .price-heading{
-    text-align: center;
-    margin: 1% 5% 3%;
-  }
-  .course-one{
-    background-image: url(images/intro-comp-think.jpg);
-    padding: 30%;
-  }
-  .course-two{
-    background-image: url(images/system-ad.jpg);
-    padding: 30%;
-  }
-  .course-three{
-    background-image: url(images/comp-net.jpg);
-    padding: 30%;
-  }
-  .course-four{
-    background-image: url(images/big-data.jpg);
-    padding: 30%;
-  }
-  .course-five{
-    background-image: url(images/mixed-signals.jpg);
-    padding: 30%;
-  }
-  .course-six{
-    background-image: url(images/drafting.jpg);
-    padding: 30%;
-  }
-  .star-style{
-    color: #FFC000;
-  }
-  .card-body-style, .card-star-style{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
-    color: grey;
-  }
-  .carousel-button-left{
-    position: absolute;
-    padding-right: 120px;
-  }
-  .carousel-button-right{
-    position: absolute;
-    padding-left: 120px;
-  }
+  background-image: linear-gradient(#282F72, #3b45a2);
+  height: 100vh;
+}
+
+.about-us-title{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-row-style{
+
+}
+
+.about-header{
+  
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #4255A4;
+}
+.about-subheader{
+  padding-bottom: 30px;
+}
+.fa-icon-about{
+  color: #FFC000;
+  padding-right: 8px;
+}
+.about-body{
+  color: #4255A4;
+}
+.about-image{
+  margin-left: 40px;
+  margin-bottom: 120px;
+  width: 550px;
+}
   
   /*SUBJECTS SECTION*/
   #subjects{
