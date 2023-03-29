@@ -62,7 +62,7 @@ body {
 }
 
 .card {
-  height: 600px;
+  height: 580px;
   margin-bottom: 15%;
   background-color: rgb(240, 239, 239);
 }
@@ -95,12 +95,12 @@ body {
 }
 
 .services-five {
-  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/hotel-booking.jpg?raw=true);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/hotel-pic.jpg?raw=true);
   padding: 30%;
 }
 
 .services-six {
-  background-image: url(images/drafting.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/van-rentals.jpg?raw=true);
   padding: 30%;
 }
 
@@ -188,9 +188,11 @@ body {
   text-align: center;
   margin: auto;
   font-weight: 300;
+  font-size: 20px;
 }
 
 .testimonial-profile {
+  margin-top: 5%;
   color: white;
   text-align: center;
 }
@@ -272,4 +274,104 @@ input {
   text-align: center;
   width: 150px;
   padding-left: 0;
+}
+
+@media (max-width: 1024px){
+  .card-star-style{
+    display: none;
+  }
+}
+
+@media (max-width: 992px){
+  #about{
+    height: 900px;
+    text-align: center;
+  }
+
+  .testimonials-header{
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 900px){
+  .star-style{
+    display: none;
+  }
+}
+
+@media (max-width: 850px){
+  .card-body-style{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 754px){
+  .card-body-style{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px){
+  .services-heading{
+    margin-top: 30%;
+  }
+
+  .card-body-style{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 376px){
+  .services-heading{
+    margin-top: 50%;
+  }
+
+  .card-body-style{
+    font-size: 100%;
+  }
+
+  #about{
+    height: 1100px;
+    text-align: center;
+  }
+
+  .about-us-title{
+    padding-top: 30%;
+  }
+
+  .testimonials-header{
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 320px){
+  .navbar-style{
+    padding-right: 3rem;
+  }
+
+  .services-heading{
+    margin-top: 40%;
+  }
+
+  #about{
+    height: 1150px;
+  }
+
+  .about-us-title{
+    padding-top: 30%;
+  }
+
+  .testimonials-header{
+    margin-top: 10%;
+  }
+
+  input {
+    background-color: #484aaa;
+    border: 1px solid #484aaa;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 200px;
+  }
 }

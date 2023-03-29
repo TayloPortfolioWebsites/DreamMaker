@@ -2,57 +2,160 @@ body{
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     color: white;
+    overflow-x: hidden;
   }
-  a{
-    color: white;
-  }
+
   /*NAVBAR SECTION*/
   .navbar-style{
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
-    background-color: #7772FF;
+    background-color: #282F72;
     padding-top: 1rem;
     padding-right: 4rem;
   }
+
+  .brand-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-left: 5%;
+  }
+
+  .fa-icon{
+    margin-right: 10px;
+  }
+
   .links{
     color: white;
     margin: 1rem;
   }
+
   .links-button{
     font-size: 1rem;
     font-weight: 700;
     margin: 1rem;
     padding: 0.5rem 2rem;
     color: white;
-  }
-  .fa-icon{
-    padding-right: 5px;
-  }
-  .brand-title{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    padding-left: 5%;
+    text-decoration: none;
   }
   
   /*FORMS SECTION*/
+  #login{
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)),url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/travel-bg.jpg?raw=true);
+    height: 100vh;
+  }
+
+  .login-here{
+    padding-top: 5%;
+  }
+
+  .login-row-style{
+    margin-left: 35%;
+  }
+
   .container {
+    display: inline-block;
     border-radius: 10px;
-    margin: auto;
     margin-top: 200px;
     width: 500px;
-    background-image: linear-gradient(#7772FF,#D16EFF);
+    background-image: linear-gradient(#282f72, #152856);
   }
-  .username-box, .password-box{
-    padding-right: 270px;
-    margin-bottom: 20px;
-  }
+
   .login-here{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
   }
+
+  input {
+    background-color: #484aaa;
+    border: 1px solid #484aaa;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 470px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
   .login-button{
-    margin-left: 200px;
+    background-color: #FFC107;
+    text-align: center;
+    width: 150px;
+    margin-left: 160px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
+
+  @media (max-width: 1024px){
+    .login-row-style{
+      margin-left: 25%;
+    }
+  }
   
+  @media (max-width: 768px){
+    .login-row-style{
+      margin-left: 20%;
+    }
+  }
+
+  @media (max-width: 671px){
+    .login-row-style{
+      margin-left: 15%;
+    }
+  }
+
+  @media (max-width: 630px){
+    .login-row-style{
+      margin-left: 12%;
+    }
+  }
+
+  @media (max-width: 586px){
+    .login-row-style{
+      margin-left: 9%;
+    }
+  }
+
+  @media (max-width: 540px){
+    .login-row-style{
+      margin-left: 5%;
+    }
+
+    .container{
+      width: 350px;
+    }
+
+    input{
+      width: 320px;
+    }
+
+    ::placeholder{
+      font-size: 12px;
+      width: 320px;
+    }
+
+    .login-button{
+      margin-left: 90px;
+    }
+  }
+
+  @media (max-width: 360px){
+    .container{
+      width: 280px;
+    }
+
+    input{
+      width: 250px;
+    }
+
+    ::placeholder{
+      font-size: 12px;
+      width: 250px;
+    }
+
+    .login-button{
+      margin-left: 50px;
+    }
+  }

@@ -41,12 +41,17 @@ body{
     text-decoration: none;
   }
 
+  .title-section{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+  }
+
   .title-description{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     color: white;
-    margin: 25% 0 0 35%;
   }
 
   .title-subdescription{
@@ -54,7 +59,6 @@ body{
     font-size: 1.1rem;
     color: white;
     margin-top: 2%;
-    margin-left: 35%;
   }
 
   .title-button{
@@ -62,7 +66,6 @@ body{
     padding: 0.5rem 2rem;
     color: white;
     margin-top: 2%;
-    margin-left: 35%;
     margin-bottom: 18%;
   }
 
@@ -140,3 +143,43 @@ body{
     width: 150px;
     padding-left: 0;
   }
+
+@media (max-width: 680px){
+  .title-section{
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 560px){
+  .title-section{
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 440px){
+  .title-description{
+    font-size: 30px;
+  }
+
+  .title-section{
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 360px){
+  input {
+    background-color: #484aaa;
+    border: 1px solid #484aaa;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 200px;
+  }
+}
