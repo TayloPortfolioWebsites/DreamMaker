@@ -75,27 +75,27 @@ body {
 }
 
 .services-one {
-  background-image: url();
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/international-package.jpg?raw=true);
   padding: 30%;
 }
 
 .services-two {
-  background-image: url();
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/airline-header.jpg?raw=true);
   padding: 30%;
 }
 
 .services-three {
-  background-image: url();
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/visa-header.jpg?raw=true);
   padding: 30%;
 }
 
 .services-four {
-  background-image: url(images/big-data.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/domestic-package.jpg?raw=true);
   padding: 30%;
 }
 
 .services-five {
-  background-image: url(images/mixed-signals.jpg);
+  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/hotel-booking.jpg?raw=true);
   padding: 30%;
 }
 
