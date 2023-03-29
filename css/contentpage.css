@@ -1,36 +1,36 @@
-body{
+body {
   overflow-x: hidden;
 }
 
 /* NAVIGATION BAR */
-.navbar-style{
-  font-family: 'Mulish', sans-serif;
+.navbar-style {
+  font-family: "Mulish", sans-serif;
   font-weight: 700;
-  background-color: #282F72;
+  background-color: #282f72;
   padding-top: 1rem;
   padding-right: 4rem;
 }
 
-.fa-icon{
+.fa-icon {
   margin-right: 10px;
 }
 
-.brand-title{
-  font-family: 'Josefin Sans', sans-serif;
+.brand-title {
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   padding-left: 5%;
 }
 
-.brand-icon{
+.brand-icon {
   padding: 5%;
 }
 
-.links{
+.links {
   color: white;
   margin: 1rem;
 }
 
-.links-button{
+.links-button {
   font-size: 1rem;
   font-weight: 700;
   margin: 1rem;
@@ -40,184 +40,186 @@ body{
 }
 
 /*SERVICES SECTION*/
-#services{
-  background-image: linear-gradient(#3b45a2,#282F72);
-  font-family: 'Josefin Sans', sans-serif;
+#services {
+  background-image: linear-gradient(#282f72, #3b45a2);
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   padding: 0.5% 14%;
-  color: #4255A4;
+  color: #4255a4;
   margin: auto;
 }
 
-.services-heading{
+.services-heading {
   text-align: center;
   margin: 15% 5% 3%;
   color: white;
 }
 
-.first-carousel-title{
+.first-carousel-title {
   text-align: center;
   margin: 0 5% 3%;
   color: white;
 }
 
-.services-one{
-  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/intl-header.jpg?raw=true);
-  padding: 30%;
+.card {
+  height: 600px;
 }
-.course-two{
-  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/visa-header.jpg?raw=true);
-  padding: 30%;
-}
-.course-three{
-  background-image: url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/airline-header.jpg?raw=true);
-  padding: 30%;
-}
-.course-four{
-  background-image: url(images/big-data.jpg);
-  padding: 30%;
-}
-.course-five{
-  background-image: url(images/mixed-signals.jpg);
-  padding: 30%;
-}
-.course-six{
-  background-image: url(images/drafting.jpg);
-  padding: 30%;
-}
-.star-style{
-  color: #FFC000;
-}
-.card-body-style, .card-star-style{
-  font-family: 'Mulish', sans-serif;
+
+.card-body-style,
+.card-star-style {
+  font-family: "Mulish", sans-serif;
   font-weight: 400;
   color: grey;
 }
-.carousel-button-left{
+
+.services-one {
+  background-image: url();
+  padding: 30%;
+}
+
+.services-two {
+  background-image: url();
+  padding: 30%;
+}
+
+.services-three {
+  background-image: url();
+  padding: 30%;
+}
+
+.services-four {
+  background-image: url(images/big-data.jpg);
+  padding: 30%;
+}
+
+.services-five {
+  background-image: url(images/mixed-signals.jpg);
+  padding: 30%;
+}
+
+.services-six {
+  background-image: url(images/drafting.jpg);
+  padding: 30%;
+}
+
+.star-style {
+  color: #ffc000;
+}
+
+.carousel-button-left {
   position: absolute;
   padding-right: 120px;
 }
-.carousel-button-right{
+.carousel-button-right {
   position: absolute;
   padding-left: 120px;
 }
 
 /*ABOUT SECTION*/
-#about{
-  background-image: linear-gradient(#282F72, #3b45a2);
+#about {
+  background-image: linear-gradient(#3b45a2, #282f72);
   height: 100vh;
 }
 
-.about-us-title{
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 .about-row-style{
-
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
 }
 
-.about-header{
-  
-  font-weight: 600;
-  margin-bottom: 30px;
-  color: #4255A4;
+.about-us-title {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 10%;
+  margin-bottom: 5%;
+  color: white;
+  text-align: center;
 }
-.about-subheader{
-  padding-bottom: 30px;
-}
-.fa-icon-about{
-  color: #FFC000;
-  padding-right: 8px;
-}
-.about-body{
-  color: #4255A4;
-}
-.about-image{
+
+.about-image {
   margin-left: 40px;
   margin-bottom: 120px;
   width: 550px;
 }
-  
-  /*SUBJECTS SECTION*/
-  #subjects{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-    padding: 5% 14%;
-    margin: auto;
-  }
-  a{
-    color: white;
-  }
-  .subjects-heading{
-    color: #4255A4;
-    margin: 5% 0;
-  }
-  .row-one{
-    margin-bottom: 15px;
-  }
-  .row-two{
-    margin-bottom: 100px;
-  }
-  .card-style-subject{
-    background-image: url(images/subjects.jpg);
-  }
-  a:hover{
-    color: white;
-  }
-  
-  /*TESTIMONIALS-SECTION*/
-  #testimonials{
-    padding: 6% 14%;
-    text-align: center;
-  }
-  .testimonials-header{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    color: #4255A4;
-    margin-bottom: 50px;
-  }
-  .testimonial-image{
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-top: 2%;
-    margin-bottom: 3%;
-  }
-  .testimonial-text{
-    color: #6373B4;
-  }
-  
-  /*FOOTER SECTION*/
-  #footer{
-    background-color: #282F72;
-    text-align: center;
-    padding: 3% 14%;
-    color: white;
-  }
-  .footer-left{
-    text-align: left;
-  }
-  .footer-header{
-    font-family: 'Josefin Sans', sans-serif;
-  }
-  .footer-body{
-    padding-right: 20%;
-  }
-  .foot-icon-left{
-    padding: 10px;
-  }
-  .foot-text{
-    text-align: left;
-    margin-top: 20px;
-  }
-  .footer-right{
-    text-align: left;
-  }
-  .footer-right-header{
-    font-weight: 700;
-  }
-  .footer-right-body{
-    margin-bottom: 20px;
-  }
+
+.about-header {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.about-subheader {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.about-body {
+  color: white;
+}
+
+.explore-icon-style {
+  margin-right: 2%;
+  color: white;
+}
+
+.testimonials-header {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.testimonial-text {
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.testimonial-profile{
+  color: white;
+  text-align: center;
+}
+
+/*FOOTER SECTION*/
+#footer {
+  background-color: #292e58;
+  text-align: center;
+  padding: 3% 14%;
+  color: white;
+}
+.footer-left {
+  text-align: left;
+}
+.footer-header {
+  font-family: "Josefin Sans", sans-serif;
+}
+.footer-body {
+  padding-right: 20%;
+}
+.foot-icon-left {
+  padding: 10px;
+}
+.foot-text {
+  text-align: left;
+  margin-top: 20px;
+}
+.footer-right {
+  text-align: left;
+}
+.footer-right-header {
+  font-weight: 700;
+}
+.footer-right-body {
+  margin-bottom: 20px;
+}
