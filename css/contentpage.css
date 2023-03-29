@@ -41,7 +41,7 @@ body {
 
 /*SERVICES SECTION*/
 #services {
-  background-image: linear-gradient(#282f72, #3b45a2);
+  background-image: linear-gradient(#282f72, #56416C);
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   padding: 0.5% 14%;
@@ -63,6 +63,8 @@ body {
 
 .card {
   height: 600px;
+  margin-bottom: 15%;
+  background-color: rgb(240, 239, 239);
 }
 
 .card-body-style,
@@ -117,11 +119,12 @@ body {
 
 /*ABOUT SECTION*/
 #about {
-  background-image: linear-gradient(#3b45a2, #282f72);
+  background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)),
+    url(https://github.com/imhazeltaylo/DreamMaker/blob/main/images/about-bg.jpg?raw=true);
   height: 100vh;
 }
 
-.about-row-style{
+.about-row-style {
   padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
@@ -184,42 +187,89 @@ body {
   width: 70%;
   text-align: center;
   margin: auto;
+  font-weight: 300;
 }
 
-.testimonial-profile{
+.testimonial-profile {
   color: white;
   text-align: center;
 }
 
 /*FOOTER SECTION*/
 #footer {
-  background-color: #292e58;
+  background-color: #282f72;
   text-align: center;
   padding: 3% 14%;
   color: white;
 }
+
 .footer-left {
   text-align: left;
 }
+
 .footer-header {
   font-family: "Josefin Sans", sans-serif;
 }
+
 .footer-body {
-  padding-right: 20%;
+  margin-right: 20%;
 }
-.foot-icon-left {
-  padding: 10px;
+
+.socials-style {
+  margin-top: 8%;
 }
+
+.fb-logo-style,
+.twitter-logo-style,
+.linkedin-logo-style {
+  width: 40px;
+}
+
+.fb-logo-style,
+.twitter-logo-style {
+  margin-right: 3%;
+}
+
+.twitter-logo-style,
+.linkedin-logo-style {
+  filter: brightness(160%);
+}
+
 .foot-text {
   text-align: left;
   margin-top: 20px;
 }
+
 .footer-right {
   text-align: left;
 }
+
 .footer-right-header {
   font-weight: 700;
+  font-size: 20px;
 }
-.footer-right-body {
-  margin-bottom: 20px;
+
+input {
+  background-color: #484aaa;
+  border: 1px solid #484aaa;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  height: 40px;
+  width: 300px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.textarea-box {
+  height: 100px;
+}
+
+.submit-button {
+  background-color: #33bf30;
+  text-align: center;
+  width: 150px;
+  padding-left: 0;
 }
